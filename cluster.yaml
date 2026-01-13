@@ -7,7 +7,7 @@ metadata:
 
 managedNodeGroups:
 - name: expense
-  instanceType:
+  instanceTypes:
     - m5.large
     - m5a.large
     - m4.large
