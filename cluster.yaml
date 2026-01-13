@@ -4,6 +4,9 @@ kind: ClusterConfig
 metadata:
   name: expense
   region: us-east-1
+  
+iam:
+  withOIDC: true
 
 managedNodeGroups:
 - name: expense
